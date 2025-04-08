@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Material UI</title>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Material UI CSS -->
+  <link href="https://unpkg.com/@material-ui/core@4.12.4/umd/material-ui.development.js" rel="stylesheet">
+  <!-- Roboto Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; font-family: 'Roboto', sans-serif;">
+
+  <!-- App Bar -->
+  <header style="background-color: #1976d2; color: white; padding: 0 16px; box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);">
+    <div style="display: flex; justify-content: space-between; align-items: center; min-height: 64px; max-width: 1200px; margin: 0 auto;">
+      <div style="display: flex; align-items: center;">
+        <i class="material-icons" style="margin-right: 8px;">business</i>
+        <span style="font-weight: 500; font-size: 1.25rem;">Material Landing</span>
+      </div>
+      <nav style="display: flex;">
+        <button style="padding: 8px 16px; border-radius: 4px; font-weight: 500; text-transform: uppercase; cursor: pointer; border: 1px solid white; color: white; background: transparent; margin-right: 8px;">Login</button>
+        <button style="padding: 8px 16px; border-radius: 4px; font-weight: 500; text-transform: uppercase; cursor: pointer; background-color: white; color: #1976d2; border: none;">Sign Up</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section style="background: linear-gradient(135deg, #1976d2 0%, #2196F3 100%); color: white; padding: 96px 0; text-align: center;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 0 16px;">
+      <h1 style="font-size: 2.5rem; font-weight: 300; margin-bottom: 16px;">Welcome to Material Design</h1>
+      <p style="font-size: 1.25rem; max-width: 700px; margin: 0 auto 32px;">Build beautiful, modern web applications with Material UI components</p>
+      <button style="padding: 12px 24px; font-size: 1rem; background-color: white; color: #1976d2; border: none; border-radius: 4px; font-weight: 500; text-transform: uppercase; cursor: pointer;">Get Started</button>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section style="padding: 64px 0;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 0 16px;">
+      <h2 style="text-align: center; margin-bottom: 48px; font-weight: 500;">Key Features</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+        <!-- Feature 1 -->
+        <div style="border-radius: 4px; box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12); overflow: hidden;">
+          <div style="padding: 16px; text-align: center;">
+            <i class="material-icons" style="font-size: 48px; color: #1976d2; margin-bottom: 16px;">speed</i>
+            <h3 style="margin: 0 0 8px 0;">Performance</h3>
+            <p>Optimized for fast loading and smooth interactions</p>
+          </div>
+          <div style="padding: 8px; display: flex; justify-content: flex-end;">
+            <button style="padding: 8px 16px; border-radius: 4px; font-weight: 500; text-transform: uppercase; cursor: pointer; border: 1px solid #1976d2; color: #1976d2; background: transparent;">Learn More</button>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div style="border-radius: 4px; box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12); overflow: hidden;">
+          <div style="padding: 16px; text-align: center;">
+            <i class="material-icons" style="font-size: 48px; color: #1976d2; margin-bottom: 16px;">devices</i>
+            <h3 style="margin: 0 0 8px 0;">Responsive</h3>
+            <p>Works perfectly on all device sizes</p>
+          </div>
+          <div style="padding: 8px; display: flex; justify-content: flex-end;">
+            <button style="padding: 8px 16px; border-radius: 4px; font-weight: 500; text-transform: uppercase; cursor: pointer; border: 1px solid #1976d2; color: #1976d2; background: transparent;">Learn More</button>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div style="border-radius: 4px; box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12); overflow: hidden;">
+          <div style="padding: 16px; text-align: center;">
+            <i class="material-icons" style="font-size: 48px; color: #1976d2; margin-bottom: 16px;">code</i>
+            <h3 style="margin: 0 0 8px 0;">Customizable</h3>
+            <p>Easily adapt to your brand's style</p>
+          </div>
+          <div style="padding: 8px; display: flex; justify-content: flex-end;">
+            <button style="padding: 8px 16px; border-radius: 4px; font-weight: 500; text-transform: uppercase; cursor: pointer; border: 1px solid #1976d2; color: #1976d2; background: transparent;">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background-color: #f5f5f5; padding: 48px 0;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 0 16px;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;">
+        <div>
+          <h3 style="margin-top: 0;">Material UI</h3>
+          <p>Build beautiful, accessible React apps with Material Design.</p>
+        </div>
+        <div>
+          <h3 style="margin-top: 0;">Links</h3>
+          <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 8px;"><a href="#" style="text-decoration: none; color: rgba(0, 0, 0, 0.87);">Documentation</a></li>
+            <li style="margin-bottom: 8px;"><a href="#" style="text-decoration: none; color: rgba(0, 0, 0, 0.87);">Examples</a></li>
+            <li style="margin-bottom: 8px;"><a href="#" style="text-decoration: none; color: rgba(0, 0, 0, 0.87);">GitHub</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 style="margin-top: 0;">Contact</h3>
+          <p><i class="material-icons" style="vertical-align: middle; margin-right: 8px;">email</i> contact@example.com</p>
+          <p><i class="material-icons" style="vertical-align: middle; margin-right: 8px;">phone</i> +1 234 567 890</p>
+        </div>
+      </div>
+      <hr style="border: none; border-top: 1px solid rgba(0, 0, 0, 0.12); margin: 32px 0;">
+      <p style="text-align: center; color: rgba(0, 0, 0, 0.6);">&copy; 2023 Material UI Landing. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
